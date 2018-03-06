@@ -1,0 +1,217 @@
+.oDetail{
+	position: relative;
+	width: 100%;
+	background: #f8f8f8;
+	height:100%;
+	overflow-y: hidden;
+}
+.oDetail header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 33px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #845f3f;
+}
+.oDetail header span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+}
+.oDetail section{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	bottom: 104px;
+	overflow: auto;
+}
+.oDetail section .d-orderInfo{
+	width: 750px;
+	padding: 20px 28px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.d-orderInfo .d-orderStatus{
+	display: flex;
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	color: #999;
+}
+.d-orderInfo .d-orderStatus p:first-child{
+	width: 130px;
+	text-align: left;
+}
+.d-orderInfo .d-orderStatus p:last-child{
+	flex: 1;
+	color: #845f3f;
+	text-align: right;
+}
+.d-orderInfo .react-view{
+	width: 100%;
+	padding: 25px 0 6px;
+	margin-top: 15px;
+	border-top: 2px solid #f2f2f2;
+	list-style: none;
+}
+.d-orderInfo .react-view li{
+	display: flex;
+	font-size: 24px;
+	height: 58px;
+	line-height: 58px;
+	text-align: left;
+}
+.d-orderInfo .react-view li p:first-child{
+	width: 115px;
+	color: #999;
+}
+.d-orderInfo .react-view li p:last-child{
+	flex: 1;
+	color: #333;
+}
+.d-orderInfo .react-view li:last-child p:last-child{
+	color: #b60909;
+}
+.oDetail section .orderGoods{
+	width: 750px;
+	padding: 0 28px;
+	margin: 18px 0;
+	box-sizing: border-box;
+	background: #fff;
+}
+.orderGoods .goods{
+	display: flex;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 2px solid #f2f2f2;
+}
+.orderGoods .goods img{
+	width: 100px;
+	height: 100px;
+	margin-right: 5px;
+}
+.orderGoods .goods .goodsInfo{
+	flex: 1;
+}
+.orderGoods .goods .goodsInfo h3{
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	text-align: left;
+}
+.orderGoods .goods .goodsInfo div{
+	display: flex;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+}
+.orderGoods .goods .goodsInfo p:first-child{
+	flex: 1;
+	color: #b91212;
+	text-align: left;
+}
+.orderGoods .goods .goodsInfo p:last-child{
+	flex: 1;
+	color: #999;
+	text-align: right;
+}
+.orderGoods .orderTotal{
+	flex: 1;
+	height: 78px;
+	line-height: 78px;
+	text-align: right;
+}
+.orderGoods .orderTotal span{
+	color: #c04343;
+}
+.oDetail section .orderAddress{
+	width: 750px;
+	padding: 0 28px 30px;
+	margin-bottom: 18px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.orderAddress > div{
+	display: flex;
+	height: 72px;
+	line-height: 72px;
+	color: #333;
+	font-size: 25px;
+}
+.orderAddress > div p:first-child{
+	flex: 1;
+	text-align: left;
+}
+.orderAddress > div p:last-child{
+	flex: 1;
+	text-align: right;
+}
+.orderAddress > p{
+	line-height: 40px;
+	color: #999;
+	text-align: left;
+}
+.oDetail section .orserSendInfo{
+	width: 750px;
+	padding: 0 28px;
+	margin-bottom: 18px;
+	box-sizing: border-box;
+	background: #fff;
+	list-style: none;
+}
+.orserSendInfo li{
+	display: flex;
+	height: 80px;
+	line-height: 80px;
+	font-size: 24px;
+}
+.orserSendInfo li:not(:first-child){
+	border-top: 2px solid #dadada;
+}
+.orserSendInfo li p:first-child{
+	flex: 1;
+	text-align: left;
+	color: #7d7d7d;
+}
+.orserSendInfo li p:last-child{
+	flex: 1;
+	text-align: right;
+	color: #333;
+}
+.oDetail footer{
+	display: flex;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 750px;
+	height: 104px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-top: 2px solid #dadada;
+	border-bottom: 2px solid #dadada;
+}
+.oDetail footer p{
+	flex: 1;
+	line-height: 60px;
+	height: 60px;
+	font-size: 22px;
+	color: #999;
+	text-align: left;
+}
+.oDetail footer button{
+	width: 135px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 10px;
+	border: 2px solid #845f3f;
+	color: #845f3f;
+	background: none;
+}

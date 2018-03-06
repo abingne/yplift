@@ -1,0 +1,125 @@
+.modify{
+	position: relative;
+	width: 100%;
+	background: #f8f8f8;
+	height:100%;
+	overflow-y: hidden;
+}
+.modify header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 33px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #845f3f;
+}
+.modify header span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+}
+.modify section{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	bottom: 100px;
+}
+.modify section ul{
+	list-style: none;
+}
+.modify section ul li{
+	position: relative;
+	width: 750px;
+	height: 105px;
+	line-height: 105px;
+	padding: 0 25px;
+	margin-bottom: 2px;
+	background: #fff;
+	font-size: 25px;
+	color: #333;
+	text-align: left;
+}
+.modify section ul li > p{
+	float: left;
+	width: 130px;
+	text-align:justify;
+}
+
+.modify li:nth-of-type(6) > svg{
+	float: left;
+	margin-top: 23px;
+}
+.modify li:nth-of-type(6) > input{
+	position: absolute;
+	top: 0;
+	left: 25px;
+	width: 60px;
+	z-index: 999;
+	opacity: 0;
+}
+.modify section ul li input,.province > div{
+	display: inline-block;
+	width: 580px;
+	height: 105px;
+	line-height: 105px;
+	padding: 0 25px 0 5px;
+	box-sizing: border-box;
+	border: none;
+	font-size: 25px;
+	color: #333;
+}
+.modify .vux-no-group-title{
+	height: 105px !important;
+	line-height: 105px !important;
+	margin: 0 !important;
+	font-size: 25px !important;
+}
+.modify .weui-cells:after, .weui-cells:before{
+	height: 0 !important;
+}
+.modify .weui-cell{
+	padding: 0 !important;
+}
+.modify .vux-popup-picker-select{
+	text-align: left !important;
+	color: #333 !important;
+}
+/*.scroller-component{
+	height: 300px !important;
+}
+/*.scroller-indicator{
+	height: 40px !important;
+}*/
+/*.scroller-indicator,.vux-popup-header,.scroller-item{
+	height: 40px !important;
+	line-height: 40px !important;
+}*/
+
+.modify footer{
+	position: absolute;
+	left: 0;
+	bottom: 35px;
+	width: 750px;
+	/*height: 100px;*/
+}
+.modify footer button{
+	width: 690px;
+	height: 88px;
+	line-height: 88px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 26px;
+	color: #845f3f;
+}
+.modify footer .del{
+	color: #b60909;
+	margin-bottom: 25px;
+}

@@ -1,0 +1,242 @@
+.c-head{
+	width: 750px;
+	height: 85px;
+	padding: 15px 35px;
+	box-sizing: border-box;
+	background: #f6f6f6;
+	font-size: 24px;
+}
+.c-head .logo{
+	float: left;
+	width: 115px;
+	height: 55px;  
+}
+.c-head .slogan{
+	display: inline-block;
+	float: left;
+	height: 55px;
+	line-height: 55px;
+	padding-left: 20px; 
+	color: #333;
+}
+.c-head .edit{
+	float: right;
+	width: 132px;
+	height: 55px;
+	line-height: 55px;
+	border: 2px solid #845f3f;
+	border-radius: 5px;
+	background: none;
+	color: #845f3f;
+}
+.c-shopList{
+	width: 750px;
+	background: #fff;
+}
+.c-shopList dt{
+	width: 750px;
+	height: 85px;
+	padding: 25px 25px;
+	box-sizing: border-box;
+	font-size: 23px;
+	line-height: 35px;
+}
+.radio{
+	position: relative;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+.radio .radioT{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+.radio .radioF{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	/*background: green;*/
+}
+.radio input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	opacity: 0;
+}
+.c-shopList .delivary{
+	display: inline-block;
+	float: left;
+	color: #3a3a3a;
+	margin-left: 10px;
+}
+.c-shopList .norm{
+	display: inline-block;
+	float: right;
+}
+.c-shopList .norm img{
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+.c-shopList .norm p{
+	display: inline-block;
+	color: #999;
+}
+.c-shopList dd{
+	position: relative;
+	width: 750px;
+	height: 195px;
+	border-top: 2px solid #f2f2f2;
+	padding: 0 25px;
+	box-sizing: border-box;
+	font-size: 23px;
+}
+.c-shopList dd .radio{
+	position: absolute;
+	top: 50%;
+	left: 25px;
+	transform: translateY(-50%);
+}
+.c-shopList dd .image{
+	position: absolute;
+	top: 50%;
+	left: 70px;
+	transform: translateY(-50%);
+	width: 164px;
+	height: 164px;
+	box-sizing: border-box;
+	border: 2px solid #f2f2f2;
+	border-radius: 2px;
+}
+.c-shopList dd .c-info{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 255px;
+	transform: translateY(-50%);
+	text-align: left;
+}
+.c-shopList dd .c-info h3{
+	color: #333;
+	line-height: 55px;
+}
+.c-shopList dd .c-info p{
+	color: #999;
+	line-height: 35px;
+	text-align: left;
+}
+.c-shopList dd .c-info .c-price{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 130px;
+	color: #b60909;
+	font-size: 24px;
+}
+.c-shopList dd .c-info .c-inputNum{
+	display: inline-block;
+	position: relative;
+	width: 241px;
+	height: 60px;
+	box-sizing: border-box;
+	border: 1px solid #bababa;
+}
+.c-inputNum span{
+	width: 58px;
+	height: 58px;
+	line-height: 58px;
+	background: #fafafa;
+	color: #dcdcdc;
+	text-align: center;
+}
+.c-inputNum span:nth-of-type(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.c-inputNum span:nth-of-type(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.c-inputNum input{
+	position: absolute;
+	top: 0;
+	left: 58px;
+	width: 120px;
+	height: 58px;
+	border: none;
+	border-right: 1px solid #bababa;
+	border-left: 1px solid #bababa;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 17px;
+	color: #333;
+	text-align: center;
+}
+.el-input-number{
+	width: 240px;
+}
+.c-footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 750px;
+	height: 105px;
+	background: #fff;
+}
+.c-footer .radio{
+	position: absolute;
+	top: 50%;
+	left: 26px;
+	transform: translateY(-50%);
+}
+.c-footer .selectall{
+	position: absolute;
+	top: 0;
+	left: 83px;
+	height: 105px;
+	line-height: 105px;
+	font-size: 25px;
+	color: #333;
+}
+.c-footer .c-btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 105px;
+	line-height: 105px;
+	border: none;
+	font-size: 25px;
+	color: #fff;
+	background: #d54943;
+}
+.c-footer .total{
+	height: 105px;
+	line-height: 105px;
+	font-size: 19px;
+	color: #666;
+}
+.c-footer .total span{
+	font-size: 25px;
+	color: #333;
+}
+.c-footer .total span i{
+	color: #d54943;
+}

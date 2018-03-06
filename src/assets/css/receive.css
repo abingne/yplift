@@ -1,0 +1,103 @@
+.receive{
+	position: relative;
+	width: 100%;
+	background: #f8f8f8;
+	height:100%;
+	overflow-y: hidden;
+}
+.receive header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 33px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #845f3f;
+}
+.receive header span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+}
+.receive section{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	bottom: 130px;
+	overflow: hidden;
+}
+.receive .add-list{
+	list-style: none;
+	height: 100%;
+	overflow: auto;
+}
+.receive .add-list li{
+	position: relative;
+	width: 750px;
+	/*height: 200px;*/
+	padding: 45px;
+	box-sizing: border-box;
+	margin-bottom: 2px;
+	background: #fff;
+}
+.receive .add-list .add-info{
+	float: left;
+	width: 600px;
+}
+.receive .add-list .add-info .info-title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.receive .add-list .add-info .info-title p{
+	font-size: 28px;
+	color: #333;
+}
+.receive .add-list .info-name{
+	float: left;
+}
+.receive .add-list .info-tel{
+	float: right;
+}
+.add-list .info-details{
+	line-height: 36px;
+	margin-top: 25px;
+	font-size: 23px;
+	color: #666;
+	text-align: left;
+}
+.add-list .el-icon-edit-outline{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 34px;
+	color: #ccc;
+}
+.receive footer{
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	width: 750px;
+	height: 100px;
+}
+.receive footer div{
+	width: 690px;
+	height: 88px;
+	line-height: 88px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 26px;
+	color: #845f3f;
+}

@@ -1,0 +1,280 @@
+.pay{
+	position: relative;
+	width: 100%;
+	background: #f8f8f8;
+	height:100%;
+	overflow-y: hidden;
+}
+.pay header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 33px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #845f3f;
+}
+.pay header span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+}
+.pay section{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	bottom: 100px;
+	overflow: auto;
+}
+.pay section .address{
+	width: 750px;
+	height: 75px;
+	line-height: 75px;
+	padding: 0 25px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	color: #686868;
+	font-size: 22px;
+	text-align: left;
+}
+.pay section .addressShow{
+	position: relative;
+	width: 750px;
+	padding: 25px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	color: #686868;
+	font-size: 22px;
+	text-align: left;
+}
+.addressShow .add-info{
+	float: left;
+	width: 600px;
+}
+.addressShow .add-info .info-title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.addressShow .add-info .info-title p{
+	font-size: 28px;
+	color: #333;
+}
+.addressShow .info-name{
+	float: left;
+}
+.addressShow .info-tel{
+	float: right;
+}
+.addressShow .info-details{
+	line-height: 36px;
+	margin-top: 25px;
+	font-size: 23px;
+	color: #666;
+	text-align: left;
+}
+.pay section .address span{
+	float: right;
+	height: 75px;
+	line-height: 75px;
+}
+.pay section .addressShow span{
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 40px;
+}
+.wait-delivery{
+	width: 750px;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 25px;
+	box-sizing: border-box;
+	font-size: 25px;
+	color: #333;
+	letter-spacing: 1px;
+	text-align: left;
+	background: #fff;
+}
+.pay section .wait-pay dd{
+	margin-top: 2px;
+}
+.wait-goods{
+	width: 750px;
+	height: 170px;
+	padding: 22px 25px;
+	box-sizing: border-box; 
+	background: #fff;
+}
+.wait-goods img{
+	float: left;
+	width: 126px;
+	height: 126px;
+	margin-left: 5px;
+}
+.wait-goods .wait-goods-text{
+	float: left;
+	width: 560px;
+	text-align: left;
+}
+.wait-goods .wait-goods-text h3{
+	height: 65px;
+	line-height: 65px;
+	font-size: 25px;
+	color: #333;
+}
+.wait-goods .wait-goods-text p{
+	display: inline-block;
+	height: 61px;
+	line-height: 61px;
+	font-size: 19px;
+	color: #b70c0c;
+}
+.wait-goods .wait-goods-text .numIcon{
+	float: right;
+	color: #999;
+}
+.pay section .delivery-info{
+	width: 750px;
+	padding: 0 25px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.delivery-info dd{
+	width: 100%;
+	height: 85px;
+	line-height: 85px;
+	/*margin-top: 2px;*/
+	border-top: 2px solid #f8f8f8;
+	font-size: 24px;
+	color: #333;
+	text-align: left;
+}
+.delivery-info dd > p{
+	float: left;
+	width: 160px;
+	height: 85px;
+	line-height: 85px;
+}
+.delivery-info dd span{
+	float: right;
+	height: 85px;
+	line-height: 85px;
+	font-size: 22px;
+	color: #a4a4a4;
+}
+.delivery-info .d-letter input{
+	float: left;
+	width: 520px;
+	height: 85px;
+	line-height: 85px;
+	box-sizing: border-box;
+	border: 0;
+	/*background: red;*/
+}
+.weui-cell:before{
+	height: 0 !important;
+	border: none !important;
+}
+.weui-cells_radio > label{
+	position: relative;
+	height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.weui-cells_radio > label .weui-cell__ft{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.delivery-info .d-mail span span{
+	color: #b60909;
+}
+.coupon{
+	width: 750px;
+	height: 85px;
+	line-height: 85px;
+	margin: 10px 0;
+	padding: 0 25px;
+	box-sizing: border-box;
+	font-size: 24px;
+	color: #333;
+	background: #fff;
+	text-align: left;
+}
+.coupon span{
+	float: right;
+	height: 85px;
+	line-height: 85px;
+	font-size: 22px;
+	color: #a4a4a4;
+}
+.total-pay{
+	padding-bottom: 150px;
+	background: #fff;
+}
+.total-pay dd{
+	width: 750px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 25px;
+	box-sizing: border-box;
+	font-size: 25px;
+	color: #333;
+	text-align: left;
+}
+.total-pay dd span{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+	color: #b60909;
+}
+.pay footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 750px;
+	height: 100px;
+}
+.pay footer .total{
+	display: inline-block;
+	float: left;
+	width: 550px;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 25px;
+	box-sizing: border-box;
+	background: #f2f2f2;
+	font-size: 25px;
+	color: #333;
+	text-align: left;
+}
+.pay footer .total p{
+	display: inline-block;
+	line-height: 100px;
+	font-size: 20px;
+	color: #bb1c1c;
+}
+.pay footer .paying{
+	float: left;
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	background: #b60909;
+	color: #fff;
+	font-size: 25px;
+}

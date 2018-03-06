@@ -1,0 +1,68 @@
+.login{
+	position: relative;
+	width: 100%;
+	background: #f8f8f8;
+	height:100%;
+	overflow-y: hidden;
+}
+.login header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 33px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #845f3f;
+}
+.login header span{
+	float: left;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+}
+.login section .l-logo{
+	width: 97px;
+	height: 97px;
+	margin-top: 145px;
+}
+.login section .l-title{
+	height: 145px;
+	line-height: 145px;
+	font-size: 37px;
+	color: #424242;
+}
+.login section .l-text{
+	width: 670px;
+	margin: 0 auto 55px;
+}
+.login section .l-text input{
+	width: 670px;
+	height: 88px;
+	line-height: 88px;
+	padding: 0 30px;
+	box-sizing: border-box;
+	border: none;
+	background: #fff;
+}
+.login section .l-text [type=text]{
+	border-top-left-radius:	30px;
+	border-top-right-radius:30px;
+}
+.login section .l-text [type=password]{
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin-top: 2px;
+}
+.login section .l-btn input{
+	width: 670px;
+	height: 90px;
+	margin: 0 auto;
+	border: none;
+	border-radius: 50px;
+	font-size: 28px;
+	background: #33b4ff;
+	color: #fff;
+}

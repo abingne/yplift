@@ -1,0 +1,28 @@
+.search{
+	width: 750px;
+	height: 110px;
+	box-sizing: border-box;
+	background: #845f3f;
+	padding: 30px 40px;
+	margin-top: -1px;
+}
+.search div{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	box-sizing: border-box;
+	background: #fff;
+	margin-top: -1px;
+	border-radius: 30px;
+	font-size: 24px;
+	color: #ccc;
+	text-align: center;
+	vertical-align: middle;
+}
+.search div i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 5px;
+}

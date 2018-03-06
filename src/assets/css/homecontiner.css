@@ -1,0 +1,47 @@
+.homecontiner{
+	width: 750px;
+	list-style: none;
+}
+.homecontiner li{
+	height: 260px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-top: 2px;
+	background: #fff;
+	text-align: left;
+}
+.homecontiner li img{
+	float: left;
+	width: 260px;
+	height: 260px;
+}
+.info{
+	display: inline-block;
+	height: 260px;
+	box-sizing: border-box;
+	/*float: left;*/
+	padding: 40px 0 40px 35px;
+	/*vertical-align: middle;*/
+}
+.info .title{
+	width: 415px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 30px;
+	font-weight: 400;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.info .briefly{
+	width: 415px;
+	line-height: 35px;
+	font-size: 19px;
+	color: #666;
+}
+.info .price{
+	margin-top: 50px;
+	font-size: 20px;
+	color: #b60909;
+	vertical-align: bottom;
+}

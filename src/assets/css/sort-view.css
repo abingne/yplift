@@ -1,0 +1,48 @@
+.sortView {
+  position: relative;
+  width: 100%;
+  /*background: #f8f8f8;*/
+  height:100%;
+  /*overflow: auto;*/
+}
+.s-continer{
+	height: 100%;
+	padding-top: 25px;
+	box-sizing: border-box;
+	background: #fff;
+	overflow: hidden;
+}
+.s-continer a{
+	position: relative;
+}
+.s-continer .s-banner{
+	width: 540px;
+	height: 278px;
+}
+.s-continer .s-list{
+	display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s-continer .s-list li{
+	-webkit-box-flex: 1;
+    /*flex-grow: 1;*/
+    justify-content: space-between;
+    width: 199px;
+}
+.s-continer .s-list li img{
+	/*display: block;*/
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.s-continer .s-list li p{
+	/*display: block;*/
+	/*width: 200px;*/
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #666;
+	text-align: center;
+}

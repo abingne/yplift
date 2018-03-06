@@ -1,0 +1,70 @@
+.u-head{
+	width: 750px;
+	height: 255px;
+	box-sizing: border-box;
+	padding: 62px 30px;
+	background: #845f3f;
+}
+.u-head img{
+	float: left;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background: #ccc;
+}
+.u-head .loginInfo{
+	display: inline-block;
+	width: 560px;
+	height: 130px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	line-height: 130px;
+}
+.u-head .loginInfo .userName{
+	display: inline-block;
+	float: left;
+	font-size: 25px;
+	color: #fff;
+	font-weight: 600;
+}
+.u-head .loginInfo .more{
+	float: right;
+}
+.u-list{
+	list-style: none;
+	margin-top: 20px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	padding: 0 20px;
+	background: #fff;
+}
+.u-list li{
+	height: 115px;
+	padding: 35px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f2f2f2;
+	text-align: left;
+}
+.u-list li img{
+	float: left;
+	width: 75px;
+	height: 42px;
+}
+.u-list li span{
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	font-size: 25px;
+	color: #333;
+}
+.u-list li i{
+	display: inline-block;
+	float: right;
+	height: 42px;
+	line-height: 42px;
+	font-size: 25px;
+	color: #333;
+}
+.u-list li:nth-of-type(5){
+	border: none;
+}
