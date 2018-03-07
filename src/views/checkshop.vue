@@ -56,12 +56,12 @@ export default{
 	},
 	computed:{
 		// 从store中获取所有订单
-		getOrderData(){
+		getOrderDatas(){
 			return this.$store.state.orderData
 		},
 		// 计算当前的订单信息
 		orderData(){
-			return this.getOrderData.filter((item)=>{
+			return this.getOrderDatas.filter((item)=>{
 				return item.orderId === this.$route.query.orderId
 			})[0]
 		},

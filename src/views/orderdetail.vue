@@ -159,11 +159,10 @@ export default{
 	},
 	methods:{
 		backHandle(){
-	  		this.$router.back();
+	  		this.$router.push('/orderlist');
 	  	}
 	},
 	created(){
-		console.log(this.getGoodsData)
 		let status = this.orderData.status
 		switch(status)
 		{

@@ -16,10 +16,10 @@ export default{
 		getOrderData(){
 			return this.$store.state.orderData
 		}
-	},
-	created(){
-		console.log(this.getOrderData)
 	}
+	// created(){
+	// 	console.log(this.getOrderData)
+	// }
 }
 </script>
 <style>

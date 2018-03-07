@@ -6,7 +6,7 @@
 	    </header>
 	    <section>
 		    <ul>
-		    	<router-link to="/orderAll" tag="li">全部订单</router-link>
+		    	<router-link to="/orderlist" tag="li">全部订单</router-link>
 		    	<router-link to="/waitPay" tag="li">待付款<span v-show="getWaitPayOrder.length>=1">{{getWaitPayOrder.length}}</span></router-link>
 		    	<router-link to="/receiving" tag="li">待收货<span v-show="getReceivingOrder.length>=1">{{getReceivingOrder.length}}</span></router-link>
 		    	<router-link to="/refund" tag="li">退款订单<span v-show="getRefundOrder.length>=1">{{getRefundOrder.length}}</span></router-link>

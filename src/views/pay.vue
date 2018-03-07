@@ -5,7 +5,7 @@
 	      <div>商品结算</div>
 	    </header>
 	    <section>
-	    	<router-link v-if="getAddInfo.length<=0" to="/receive" class="address" tag="div">没有地址信息，请点击添加地址<span class="el-icon-arrow-right"></span></router-link>
+	    	<div v-if="!postAdd" class="address" @click="editAddHandle">没有地址信息，请点击添加地址<span class="el-icon-arrow-right"></span></div>
 	    	<router-link v-else to="/receive" class="addressShow clearFix" tag="div">
 	    		<div class="add-info">
     				<div class="info-title">
@@ -131,6 +131,10 @@ export default{
 		backHandle(){
 	  		this.$router.back();
 	  	},
+	  	// 选择地址
+	  	editAddHandle(){
+	  		this.$router.push('/receive')
+	  	},
 	  	// 提交订单
 	  	submitOrderHandle(){
 	  		// 判断发票的主体是否为公司，并判断是否填写抬头信息
@@ -181,13 +185,11 @@ export default{
 	},
 	created(){
 		// 判断用户是否更改地址
-		if (this.getSelectAdd) {
+		if (this.getSelectAdd.length <= 0) {
 			this.postAdd = this.getDeaultAddInfo
 		}else{
 			this.postAdd = this.getSelectAdd[0]
 		}
-		// console.log(this.getSelectAdd)
-		// console.log(this.postAdd)
 	}
 }
 </script>

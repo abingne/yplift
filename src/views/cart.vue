@@ -89,7 +89,6 @@ export default{
 		},
 		changeHandel(item){
 			item.isSelected = !item.isSelected
-			console.log(item.isSelected)
 		},
 		changeEditHandle(){
 			this.edit = !this.edit
@@ -99,7 +98,6 @@ export default{
 			let delList = this.cartList.filter((item)=>{
 				return item.isSelected == true
 			})
-			console.log(delList)
 			this.$store.commit('delCarPanelData',delList)
 		},
 		// 全选
@@ -115,15 +113,6 @@ export default{
 		plusCountHandle(item){
 			this.$store.commit('plusCount',item)
 		}
-		// 
-		// toPay(){
-		// 	console.log(1)
-		// 	let toPayList = this.cartList.filter((item)=>{
-		// 		return item.isSelected == true
-		// 	})
-		// 	console.log(toPayList)
-		// 	this.$store.commit('getPayList',toPayList)
-		// }
 	}
 }
 </script>
