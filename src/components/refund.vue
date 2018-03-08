@@ -22,9 +22,6 @@ export default{
 				return item.status == 6
 			})
 		}
-	},
-	created(){
-		console.log(this.getOrderData)
 	}
 }
 </script>

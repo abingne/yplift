@@ -3,7 +3,7 @@
     <!-- <span class="demonstration">默认 Hover 指示器触发</span> -->
     <el-carousel  arrow="never">
       <el-carousel-item v-for="item in simg" :key="item">
-        <router-link to="/" tag="img" :src="item"></router-link>
+        <router-link to="/" tag="img" v-lazy="item"></router-link>
       </el-carousel-item>
     </el-carousel>
   </div>

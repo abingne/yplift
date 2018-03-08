@@ -1,7 +1,7 @@
 <template>
 	<ul class="homecontiner">
 		<router-link :to="{path:'/detaview/'+data.id}" tag="li">
-			<img :src="data.src" alt=""><!--
+			<img v-lazy="data.src" alt=""><!--
 			--><div class="info">
 				<h3 class="title">{{data.title}}</h3>
 				<p class="briefly">{{data.briefly}}</p>

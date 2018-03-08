@@ -9,7 +9,7 @@
 				<p>{{closeTime}}小时后订单将关闭</p>
 			</div>
 	    	<div class="goods" v-for="item,index in itemData.goodsData">
-	    		<img :src="item.src">
+	    		<img v-lazy="item.src">
 	    		<div class="goodsInfo">
 	    			<h3>{{item.title}}</h3>
 	    			<div>
@@ -67,7 +67,6 @@ export default{
 		}
 	},
 	created(){
-		console.log(this.itemData)
 		let status = this.itemData.status
 		switch(status)
 		{

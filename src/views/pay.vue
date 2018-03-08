@@ -21,7 +21,7 @@
 	    	<dl class="wait-pay">
 	    		<dt class="wait-delivery">有品配送</dt>
 	    		<dd class="wait-goods" v-for="item,index in getpayList" :key="index">
-	    			<img :src="item.src">
+	    			<img v-lazy="item.src">
 	    			<div class="wait-goods-text">	
 	    				<h3>{{item.title}}</h3>
 	    				<p>￥{{item.price}}</p>

@@ -26,7 +26,7 @@
 					<i class="radioF" v-show="!item.isSelected"></i>
 					<input type="checkbox" :checked="item.isSelected" @change="changeHandel(item)">
 				</span>
-				<img class="image" :src="item.src" @click="changeRoute(item.id)">
+				<img class="image" v-lazy="item.src" @click="changeRoute(item.id)">
 				<span class="c-info">
 					<h3 @click="changeRoute(item.id)">{{item.title}}</h3>
 					<p>小计 ￥{{item.price*item.count}}</p>

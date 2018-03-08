@@ -42,7 +42,7 @@
 	    	</div>
 	    	<div class="orderGoods">
 		    	<div class="goods" v-for="item,index in getGoodsData">
-		    		<img :src="item.src">
+		    		<img v-lazy="item.src">
 		    		<div class="goodsInfo">
 		    			<h3>{{item.title}}</h3>
 		    			<div>
